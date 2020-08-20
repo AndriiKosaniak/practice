@@ -7,7 +7,7 @@
       </li>
     </ol>
     <input type="text" v-model="text">
-    <button @click="add" v-if="arr.length <= 10">Add</button>
+    <button @click="add" v-if="arr.length < 10">Add</button>
     <button @click="remove(i)">Remove</button>
   </div>
 </template>
